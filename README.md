@@ -1,18 +1,26 @@
-# Mark1688288 Mmlmrag
+# homebrew-mmlmrag
 
-## How do I install these formulae?
+Homebrew tap for [mmlmRAG](https://github.com/mark1688288/mmlmRAG).
 
-`brew install mark1688288/mmlmrag/<formula>`
+## Install
 
-Or `brew tap mark1688288/mmlmrag` and then `brew install <formula>`.
+```bash
+brew install mark1688288/mmlmrag/mmlmrag
+```
 
-Or, in a `brew bundle` `Brewfile`:
+This installs the `rag` command. The formula depends on macOS and `python@3.13`. Its Python resources are the Apple Silicon wheels for tag `v0.1.0`.
+
+Ollama stays separate:
+
+```bash
+brew install ollama
+brew services start ollama
+rag models pull
+```
+
+In a `Brewfile`:
 
 ```ruby
 tap "mark1688288/mmlmrag"
-brew "<formula>"
+brew "mmlmrag"
 ```
-
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
