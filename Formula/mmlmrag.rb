@@ -153,7 +153,7 @@ class Mmlmrag < Formula
     sha256 "fd2c5d7909e8d86fe92d53020c310ca0e4e431b838c207c5754b9bbf0308d49a"
   end
 
-  resource "huggingface_hub" do
+  resource "huggingface-hub" do
     url "https://files.pythonhosted.org/packages/c7/89/5f6ef1162d0323f167b6baab04d1b4bd6a946161a8af6d86f622d9d79aa1/huggingface_hub-2.3.0-py3-none-any.whl"
     sha256 "5da369600233568a126eb5578754935b2add9446b42d9e2fc0927d56840ac1a5"
   end
@@ -163,7 +163,7 @@ class Mmlmrag < Formula
     sha256 "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c"
   end
 
-  resource "importlib_resources" do
+  resource "importlib-resources" do
     url "https://files.pythonhosted.org/packages/8a/db/55a262f3606bebcae07cc14095338471ad7c0bbcaa37707e6f0ee49725b7/importlib_resources-7.1.0-py3-none-any.whl"
     sha256 "1bd7b48b4088eddb2cd16382150bb515af0bd2c70128194392725f82ad2c96a1"
   end
@@ -288,7 +288,7 @@ class Mmlmrag < Formula
     sha256 "f11a3c1358bb3c68012a7b1f41b223c3db9f7bfde90b481df028cfe1c3363313"
   end
 
-  resource "pillow_heif" do
+  resource "pillow-heif" do
     url "https://files.pythonhosted.org/packages/29/96/4170d91441cbb3336dbe02155b57c0004b2516a40538f7aae8c0b8af497d/pillow_heif-1.8.1-cp313-cp313-macosx_11_0_arm64.whl"
     sha256 "98c500475f3add0d2ac4a6686b925c22fd0cf05def1ce977fec8ec753dabd66a"
   end
@@ -323,7 +323,7 @@ class Mmlmrag < Formula
     sha256 "30f5313340da4e8f1b440d1910b92a5bc3ccbb6b4ba70ec2b8395bc921f418f5"
   end
 
-  resource "pydantic_core" do
+  resource "pydantic-core" do
     url "https://files.pythonhosted.org/packages/f7/b9/c720e56858d4e1539503297ed37063e0c08e0f3541c41b777f6a800f75fa/pydantic_core-2.50.1-cp313-cp313-macosx_11_0_arm64.whl"
     sha256 "0c003c3b7f49debb893d2d85ae099ac5959c9839e2f330fadb1fcdf7a6594482"
   end
@@ -343,7 +343,7 @@ class Mmlmrag < Formula
     sha256 "43d4b4a2d0bf8b9b4d7f21a48875ef0016018dbad6677ef6b01ef2b0f6e392dd"
   end
 
-  resource "pymupdf_layout" do
+  resource "pymupdf-layout" do
     url "https://files.pythonhosted.org/packages/37/4e/d8a1eca5fda53a7a288d4f1e0f8d625344bbc84d5d9d4e5b95c73c8789d2/pymupdf_layout-2.0-py3-none-any.whl"
     sha256 "03ac486c796839eae5c46e910364ad524fb1e83c7dc34553e8e704939d0236a7"
   end
@@ -378,7 +378,7 @@ class Mmlmrag < Formula
     sha256 "77985b4d7ce71b9905255bf12468cf598349e98837c037541cfc240e528aec46"
   end
 
-  resource "pyproject_hooks" do
+  resource "pyproject-hooks" do
     url "https://files.pythonhosted.org/packages/85/11/044d1ae1b4ec0d7af88ee5bc91e081be1022533032b906a7bdabdbb60977/pyproject_hooks-1.3.3-py3-none-any.whl"
     sha256 "5fc53fdac9f7bd63fbcdc868fb5f90b4784d78a53a3d3388cd738b807441a20b"
   end
@@ -478,7 +478,7 @@ class Mmlmrag < Formula
     sha256 "65b8397ba37ccbce054456aaccddfc91e6e3083c92824df348d96ca832f3f147"
   end
 
-  resource "typing_extensions" do
+  resource "typing-extensions" do
     url "https://files.pythonhosted.org/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl"
     sha256 "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8"
   end
